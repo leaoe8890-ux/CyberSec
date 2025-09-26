@@ -1,0 +1,54 @@
+2025-09-25 22:52:45,758 - __main__ - INFO - Inicializando CyberSec Guardian...
+2025-09-25 22:52:45,758 - __main__ - INFO - CyberSec Guardian inicializado com sucesso!
+2025-09-25 22:53:21,118 - __main__ - INFO - Loop de monitoramento iniciado
+2025-09-25 22:53:21,119 - message_sender - INFO - Processador de fila de mensagens iniciado
+2025-09-25 22:53:21,119 - __main__ - INFO - Executando verificação de hardware...
+2025-09-25 22:53:21,121 - hardware_tester - INFO - Iniciando teste completo de hardware...
+2025-09-25 22:53:23,489 - hardware_tester - INFO - Iniciando teste de stress da CPU...
+2025-09-25 22:53:29,046 - hardware_tester - INFO - Iniciando teste de memória...
+2025-09-25 22:53:29,385 - hardware_tester - INFO - Iniciando teste de velocidade do disco...
+2025-09-25 22:53:34,271 - hardware_tester - INFO - Testando conectividade de rede...
+2025-09-25 22:53:40,489 - hardware_tester - INFO - Teste de hardware concluído em 19.37 segundos
+2025-09-25 22:53:40,490 - message_sender - INFO - Mensagem adicionada à fila: hardware
+2025-09-25 22:53:40,490 - __main__ - INFO - Executando verificação de localização...
+2025-09-25 22:53:41,121 - message_sender - WARNING - Senha do email não configurada
+2025-09-25 22:53:41,122 - message_sender - WARNING - Token do Telegram ou Chat ID não configurados
+2025-09-25 22:53:41,122 - message_sender - WARNING - Webhook do Slack não configurado
+2025-09-25 22:53:41,123 - message_sender - WARNING - Biblioteca plyer não disponível para notificações Windows
+2025-09-25 22:53:41,124 - message_sender - WARNING - Falha no envio via: email, telegram, slack, desktop
+2025-09-25 22:53:41,124 - message_sender - WARNING - Recolocando mensagem na fila (tentativa 1)
+2025-09-25 22:53:41,126 - location_tracker - INFO - IP público obtido: 45.237.214.208
+2025-09-25 22:53:41,483 - location_tracker - INFO - Localização obtida: Goiânia, Brazil
+2025-09-25 22:53:41,484 - __main__ - INFO - Executando verificação de segurança...
+2025-09-25 22:53:41,484 - security_scanner - INFO - Iniciando scan completo de segurança para 127.0.0.1
+2025-09-25 22:53:41,485 - security_scanner - INFO - Iniciando scan de portas em 127.0.0.1
+2025-09-25 22:53:43,520 - security_scanner - INFO - Scan concluído: 0 portas abertas de 10 testadas
+2025-09-25 22:53:43,520 - security_scanner - INFO - Iniciando scan de vulnerabilidades em 127.0.0.1
+2025-09-25 22:53:43,521 - security_scanner - INFO - Iniciando scan de portas em 127.0.0.1
+2025-09-25 22:53:45,549 - security_scanner - INFO - Scan concluído: 0 portas abertas de 10 testadas
+2025-09-25 22:53:45,549 - security_scanner - INFO - Scan de vulnerabilidades concluído: 0 vulnerabilidades encontradas
+2025-09-25 22:53:45,550 - security_scanner - INFO - Iniciando enumeração DNS para 127.0.0.1
+2025-09-25 22:53:46,127 - message_sender - WARNING - Senha do email não configurada
+2025-09-25 22:53:46,128 - message_sender - WARNING - Token do Telegram ou Chat ID não configurados
+2025-09-25 22:53:46,128 - message_sender - WARNING - Webhook do Slack não configurado
+2025-09-25 22:53:46,129 - message_sender - WARNING - Biblioteca plyer não disponível para notificações Windows
+2025-09-25 22:53:46,130 - message_sender - WARNING - Falha no envio via: email, telegram, slack, desktop
+2025-09-25 22:53:46,130 - message_sender - WARNING - Recolocando mensagem na fila (tentativa 2)
+2025-09-25 22:53:46,276 - security_scanner - INFO - Descobrindo hosts na rede: 127.0.0.0/24
+2025-09-25 22:53:51,131 - message_sender - WARNING - Senha do email não configurada
+2025-09-25 22:53:51,131 - message_sender - WARNING - Token do Telegram ou Chat ID não configurados
+2025-09-25 22:53:51,132 - message_sender - WARNING - Webhook do Slack não configurado
+2025-09-25 22:53:51,133 - message_sender - WARNING - Biblioteca plyer não disponível para notificações Windows
+2025-09-25 22:53:51,134 - message_sender - WARNING - Falha no envio via: email, telegram, slack, desktop
+2025-09-25 22:53:51,134 - message_sender - ERROR - Mensagem descartada após múltiplas tentativas
+2025-09-25 22:54:13,687 - security_scanner - INFO - Descoberta concluída: 254 hosts ativos encontrados
+2025-09-25 22:54:13,687 - security_scanner - INFO - Scan completo concluído em 32.2 segundos
+2025-09-25 22:55:01,764 - message_sender - INFO - Enviando mensagens de teste...
+2025-09-25 22:55:01,764 - message_sender - WARNING - Senha do email não configurada
+2025-09-25 22:55:01,764 - message_sender - WARNING - Token do Telegram ou Chat ID não configurados
+2025-09-25 22:55:01,765 - message_sender - WARNING - Webhook do Slack não configurado
+2025-09-25 22:55:01,766 - message_sender - WARNING - Biblioteca plyer não disponível para notificações Windows
+2025-09-25 22:55:01,766 - message_sender - WARNING - Falha no envio via: email, telegram, slack, desktop
+2025-09-25 22:55:07,716 - location_tracker - INFO - IP público obtido: 45.237.214.208
+2025-09-25 22:55:08,073 - location_tracker - INFO - Localização obtida: Goiânia, Brazil
+2025-09-25 22:55:08,077 - __main__ - INFO - Relatório location salvo em: reports\location_20250925_225508.json

@@ -1,0 +1,46 @@
+{
+  "system": {
+    "name": "CyberSec Guardian",
+    "version": "1.0.0",
+    "debug": true
+  },
+  "messaging": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "email_from": "security@company.com",
+    "email_to": "admin@company.com",
+    "telegram_bot_token": "",
+    "telegram_chat_id": ""
+  },
+  "security": {
+    "scan_ports": [
+      21,
+      22,
+      23,
+      25,
+      53,
+      80,
+      110,
+      443,
+      993,
+      995
+    ],
+    "timeout": 5,
+    "max_threads": 50
+  },
+  "location": {
+    "api_key": "",
+    "provider": "ipinfo"
+  },
+  "hardware": {
+    "check_interval": 300,
+    "temperature_threshold": 80,
+    "memory_threshold": 90,
+    "disk_threshold": 85
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  }
+}

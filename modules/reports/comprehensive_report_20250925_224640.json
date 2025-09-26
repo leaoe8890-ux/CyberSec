@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-09-25T22:46:40.277648",
+  "summary": {
+    "risk_level": "Medium",
+    "total_issues": 5,
+    "critical_issues": 1
+  },
+  "hardware_report": {
+    "overall_health": "BOM",
+    "alerts": [
+      "Uso de memória alto"
+    ],
+    "system_info": {
+      "hostname": "test-server",
+      "system": "Linux"
+    },
+    "cpu_test": {
+      "physical_cores": 4,
+      "total_cores": 8,
+      "cpu_usage_percent": 25.5
+    },
+    "memory_test": {
+      "total_ram_gb": 16,
+      "ram_usage_percent": 75.2
+    }
+  }
+}
